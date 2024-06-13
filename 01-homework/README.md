@@ -1,6 +1,6 @@
 # Exercitii practice:
 - [x] Creați un document HTML care va reprezenta o pagină cu o rețetă pentru un anumit fel de mâncare.
-- [ ] Adăugați un titlu de prim nivel cu numele felului de mâncare.
+- [x] Adăugați un titlu de prim nivel cu numele felului de mâncare.
 - [ ] Adăugați o imagine a felului de mâncare utilizând tag-ul <img> și includeți atributul alt 
 - [ ] Adăugați un paragraf care să conțină o descriere scurtă a felului de mâncare. 
 - [ ] Creați o listă neordonată pentru a enumera ingredientele necesare
