@@ -1,2 +1,2 @@
 # odc-homeworks
- Orange Digital Center homework tasks
+ Orange Digital Center homework tasks.
