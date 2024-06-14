@@ -4,7 +4,7 @@
 - [x] Adăugați un titlu de prim nivel cu numele felului de mâncare.
 - [x] Adăugați o imagine a felului de mâncare utilizând tag-ul <img> și includeți atributul alt
 - [x] Adăugați un paragraf care să conțină o descriere scurtă a felului de mâncare.
-- [ ] Creați o listă neordonată pentru a enumera ingredientele necesare
+- [x] Creați o listă neordonată pentru a enumera ingredientele necesare
 - [ ] Creați o listă ordonată pentru a enumera instrucțiunile, pas cu pas, pentru preparare
 - [ ] Adăugați un link către o pagină externă care conține rețeta completă.
 - [ ] Creați un formular cu câmpuri pentru nume și comentariu. Utilizați atributul required pentru a face aceste câmpuri obligatorii.
