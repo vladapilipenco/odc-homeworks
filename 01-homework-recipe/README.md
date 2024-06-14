@@ -9,4 +9,4 @@
 - [x] Adăugați un link către o pagină externă care conține rețeta completă.
 - [x] Creați un formular cu câmpuri pentru nume și comentariu. Utilizați atributul required pentru a face aceste câmpuri obligatorii.
 - [x] Creați o tabelă pentru a afișa informații despre valoarea nutritivă, cum ar fi numărul de calorii, proteine, grăsimi și carbohidrați.
-- [ ] Adăugați un buton &quot;Înapoi&quot; care, la clic, să întoarcă utilizatorul la pagina anterioară în istoricul de navigare.
+- [x] Adăugați un buton &quot;Înapoi&quot; care, la clic, să întoarcă utilizatorul la pagina anterioară în istoricul de navigare.
