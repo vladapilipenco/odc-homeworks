@@ -41,18 +41,28 @@
         color: rgb(255, 133, 18);
         text-shadow: 2px 2px 6px rgb(247, 199, 154);
       }
-
+      .userCommentForm {
+        width: 100%;
+        background-color: #fcecd4;
+        padding: 30px;
+        border-radius: 13px;
+      }
       label {
         padding: 12px 12px;
         display: inline-block;
         min-width: 100px;
       }
+      input[type="text"] {
+        width: 100%;
+        border: none;
+        padding: 15px 20px;
+      }
       .formButton {
         border: none;
         border-radius: 20px;
         background-color: #d8d6d3;
-        padding: 5px 10px;
-        margin-top: 10px;
+        padding: 12px 15px;
+        margin-top: 25px;
       }
       .formButton:hover {
         background-color: #e8e6e6;
@@ -60,7 +70,7 @@
       .backButton {
         margin-left: auto;
         margin-top: 10px;
-        background-color: #f3ca85;
+        background-color: #fbb02e;
         border: none;
         border-radius: 42px;
         color: white;
@@ -70,7 +80,7 @@
         font-size: 20px;
       }
       .backButton:hover {
-        background-color: #fcc15a;
+        background-color: #f7c265;
       }
     </style>
   </head>
@@ -157,7 +167,7 @@
         </tr>
       </table>
       <h2>Leave a reply</h2>
-      <form>
+      <form class="userCommentForm">
         <label for="userName">Name</label>
         <input type="text" id="userName" name="userName" required />
         <br />
