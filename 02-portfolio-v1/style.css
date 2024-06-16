@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 12, 12);
+}
+h1 {
+  margin-left: 30px;
+  font-family: "Chivo Mono";
+  font-size: 1.5rem;
+  color: rgb(239, 237, 237);
+}
+.mainNavigation {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.navigationList {
+  list-style-type: none;
+}
+.navigationList li {
+  display: inline;
+}
+.navigationList a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  padding: 20px 10px;
+}
+.navigationList a:hover {
+  color: rgb(219, 219, 216);
+}
+.homeSection {
+  background-color: rgb(12, 12, 12);
+  padding: 130px 0;
+}
+.homeWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.leftSideContainer {
+  margin-right: 80px;
+}
+.leftSideContainer h2 {
+  font-size: 2.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.leftSideContainer p {
+  margin-top: 50px;
+  text-align: justify;
+  font-family: Georgia, serif;
+  color: rgb(163, 163, 162);
+  font-size: 1.2rem;
+}
+.rightSideContainer {
+  display: flex;
+  align-items: center;
+}
+.portrait {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.contactButton {
+  display: inline-block;
+  margin-top: 50px;
+  border: none;
+  border-radius: 40px;
+  padding: 25px 40px;
+  background-color: rgb(250 135 135);
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", sans-serif;
+  color: rgb(255 255 255);
+  box-shadow: 0px 0px 20px rgb(172, 110, 110);
+}
+.contactButton:hover {
+  background-color: rgb(244, 110, 110);
+  box-shadow: 0px 0px 25px rgb(103, 52, 52);
+}
+.skillsSection {
+  max-width: 900px;
+  margin: 100px auto;
+}
+.skillsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.skillsList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.skillsList li {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
