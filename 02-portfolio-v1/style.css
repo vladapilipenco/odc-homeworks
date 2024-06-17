@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
@@ -11,9 +14,9 @@ body {
   background-color: rgb(12, 12, 12);
 }
 h1 {
-  margin-left: 30px;
+  margin: 40px 70px;
   font-family: "Chivo Mono";
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: rgb(239, 237, 237);
 }
 .mainNavigation {
@@ -102,9 +105,55 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  padding: 0;
 }
 .skillsList li {
   list-style-type: none;
   text-align: center;
   font-weight: bold;
+}
+.projectsSection {
+  max-width: 1100px;
+  margin: 200px auto;
+}
+.projectsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.projectsSection p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(140, 140, 140);
+}
+.projectsList {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 100px 0 0;
+  padding: 0;
+}
+.projectsList li {
+  list-style-type: none;
+}
+.card {
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card img {
+  object-fit: cover;
+}
+.card a {
+  text-decoration: none;
+  color: rgb(250 135 135);
+  font-weight: bold;
+}
+.card a:hover {
+  color: rgb(250, 194, 194);
+  text-shadow: 0px 0px 10px rgb(250, 236, 236);
 }
