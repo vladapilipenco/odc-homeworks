@@ -200,19 +200,29 @@
           </li>
         </ol>
       </section>
-      <section id="contact">
+      <section class="formSection" id="contact">
         <h3>Get In Touch</h3>
         <p>You can contact me by completing this form:</p>
-        <form>
-          <input name="name" required />
-          <input name="phone-number" required />
-          <input name="email" required />
-          <label for="reason">Reason:</label>
-          <select name="reason">
-            <option value="">Select an option</option>
-            <option value="interview">Interview</option>
-            <option value="employment">Employment</option>
-          </select>
+        <form class="contactMeForm">
+          <input name="name" placeholder="enter your name..." required />
+          <input
+            name="phone-number"
+            placeholder="enter your phone number..."
+            required
+          />
+          <input
+            name="email"
+            placeholder="enter your email address..."
+            required
+          />
+          <div class="selectBoxContainer">
+            <label for="reason">Reason:</label>
+            <select name="reason">
+              <option value="">Select an option</option>
+              <option value="interview">Interview</option>
+              <option value="employment">Employment</option>
+            </select>
+          </div>
         </form>
       </section>
     </main>
