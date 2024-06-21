@@ -8,5 +8,5 @@
 - [x] O fotografie a actorului
 - [x] Un film celebru în care a jucat
 - [x] Button "Mai multe informatii"
-- [ ] Apoi, utilizati HTML si CSS pentru a crea o tabela care s prezinte aceste informatii intr-un mod atractiv.
+- [x] Apoi, utilizati HTML si CSS pentru a crea o tabela care s prezinte aceste informatii intr-un mod atractiv.
       Puteti adauga stilizari si efecte vizuale pentru a face tabela s arate mai interesantă. De exemplu, puteti utiliza diferite stiluri de text, culori si fundaluri pentru a evidentia fiecare actor în mod unic.
