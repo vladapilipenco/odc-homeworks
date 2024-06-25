@@ -84,7 +84,7 @@ body {
 
 .intro {
   max-width: 900px;
-  margin: 150px auto 0;
+  margin: 80px auto 0;
   text-align: center;
 }
 .intro h1 {
@@ -132,6 +132,8 @@ body {
   text-align: center;
 }
 .firstOscarSection h2 {
+  position: relative;
+  z-index: -1;
   font-size: 2rem;
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
@@ -154,5 +156,42 @@ body {
 }
 .firstOscarContent img {
   object-fit: cover;
-  margin: 100px 100px;
+  margin: 50px 100px 85px 0px;
+}
+.filmsSection {
+  max-width: 900px;
+  margin: 100px auto 0;
+}
+.filmsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.filmsSection img {
+  object-fit: cover;
+  max-width: 900px;
+  object-position: 10% 10%;
+  margin-top: 50px;
+}
+.filmsSection ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+.filmsSection ul > li {
+  list-style-image: url("./tribute-page-photo/gun2.svg");
+  font-size: 1.5rem;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 20px 0;
+  width: 40%;
+}
+.filmsSection ul > li::marker {
+  font-size: 4rem;
 }

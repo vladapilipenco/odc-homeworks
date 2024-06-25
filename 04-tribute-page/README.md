@@ -13,7 +13,7 @@
 - creatii/inventii/filme/albume/realizãri -în dependent de cine ati ales - prezentate într-un mod compact si accesibil
 - fun facts sau curiozitati despre personalitatea/grupul de personalitati ales
 
-- [ ] Un citat celebru apartinând persoanei/grupului de persoane ales
+- [x] Un citat celebru apartinând persoanei/grupului de persoane ales
 - [ ] Footerul trebuie sã contina informatia relevant + un buton stilizat ca o săgeata ce se îndreaptä in sus. Butonul trebuie sã fie functional. Evitati folosirea de imagini aici, sugestia ar fi sã folositi icons sau svg
 
 ## Aveti libertatea absolută în stilizare, layout, alegerea culorilor, fonturilor etc.
