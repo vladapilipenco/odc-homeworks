@@ -18,6 +18,10 @@
 
 ## Aveti libertatea absolută în stilizare, layout, alegerea culorilor, fonturilor etc.
 
+# Live Preview
+
+[Tribute Page](https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/04-tribute-page/index.html)
+
 # Screenshot
 
 ![tribute page screenshot](./tribute-page-screenshot.png)
