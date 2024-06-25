@@ -20,7 +20,7 @@
 
 # Live Preview
 
-[Tribute Page](https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/04-tribute-page/index.html)
+[Tribute Page](https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/04-tribute-page/index.html){:target="\_blank"}
 
 # Screenshot
 
