@@ -42,9 +42,9 @@ body {
   padding: 15px 20px;
 }
 .topNav li > a:hover {
-  background-color: rgba(70, 143, 123, 0.2);
+  background-color: rgba(70, 143, 123, 0.3);
   border-radius: 30px;
-  box-shadow: 0px 0px 15px rgba(70, 143, 123, 0.5);
+  box-shadow: 0px 0px 15px rgba(135, 255, 223, 0.5);
 }
 .headerContainer {
   background-image: url("./tribute-page-photo/Screenshot\ 2024-06-24\ at\ 14.30.24.png");
@@ -66,7 +66,6 @@ body {
 }
 .blurredImage:before {
   display: block;
-
   content: "";
   position: absolute;
   width: 100%;
@@ -84,7 +83,7 @@ body {
 }
 
 .intro {
-  width: 800px;
+  max-width: 900px;
   margin: 150px auto 0;
   text-align: center;
 }
@@ -100,4 +99,26 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 120px auto;
+}
+.textContainer {
+  padding: 20px 50px;
+}
+.textContainer h2 {
+  font-size: 2rem;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.textContainer p {
+  font-family: "DM Serif Text", serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.biographySection img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 30%;
+  flex-shrink: 0;
+  margin: 150px 20px;
+  box-shadow: 0px 0px 90px rgba(190, 82, 5, 0.556);
 }
