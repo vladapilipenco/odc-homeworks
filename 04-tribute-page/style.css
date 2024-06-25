@@ -96,19 +96,23 @@ body {
   font-family: "DM Serif Text", serif;
 }
 .biographySection {
-  display: flex;
-  justify-content: space-between;
-  margin: 120px auto;
+  margin: 200px auto 0;
 }
-.textContainer {
-  padding: 20px 50px;
-}
-.textContainer h2 {
+.biographySection h2 {
   font-size: 2rem;
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
+.biographySectionContent {
+  display: flex;
+  justify-content: space-between;
+}
+.textContainer {
+  padding: 20px 50px;
+}
+
 .textContainer p {
   font-family: "DM Serif Text", serif;
   font-size: 1.2rem;
@@ -119,6 +123,36 @@ body {
   object-fit: cover;
   object-position: 0 30%;
   flex-shrink: 0;
-  margin: 150px 20px;
+  margin: 90px 20px;
   box-shadow: 0px 0px 90px rgba(190, 82, 5, 0.556);
+}
+.firstOscarSection {
+  max-width: 900px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+.firstOscarSection h2 {
+  font-size: 2rem;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.firstOscarSection h2 > span {
+  filter: invert(41%) sepia(54%) saturate(4644%) hue-rotate(14deg)
+    brightness(101%) contrast(99%);
+}
+.firstOscarContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.firstOscarContent p {
+  font-family: "DM Serif Text", serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.firstOscarContent img {
+  object-fit: cover;
+  margin: 100px 100px;
 }
