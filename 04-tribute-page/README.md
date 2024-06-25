@@ -14,6 +14,6 @@
 - fun facts sau curiozitati despre personalitatea/grupul de personalitati ales
 
 - [x] Un citat celebru apartinând persoanei/grupului de persoane ales
-- [ ] Footerul trebuie sã contina informatia relevant + un buton stilizat ca o săgeata ce se îndreaptä in sus. Butonul trebuie sã fie functional. Evitati folosirea de imagini aici, sugestia ar fi sã folositi icons sau svg
+- [x] Footerul trebuie sã contina informatia relevant + un buton stilizat ca o săgeata ce se îndreaptä in sus. Butonul trebuie sã fie functional. Evitati folosirea de imagini aici, sugestia ar fi sã folositi icons sau svg
 
 ## Aveti libertatea absolută în stilizare, layout, alegerea culorilor, fonturilor etc.
