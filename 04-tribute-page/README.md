@@ -18,6 +18,6 @@
 
 ## Aveti libertatea absolută în stilizare, layout, alegerea culorilor, fonturilor etc.
 
-#Screenshot
+# Screenshot
 
 ![tribute page screenshot](./tribute-page-screenshot.png)
