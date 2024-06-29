@@ -1,4 +1,4 @@
-# Creati o pagină dedicata unei personalitti care vă inspira (regizor/compozitor/actor/scriitor/muzician/formatie muzicală/savant etc.).
+# Creati o pagină dedicata unei personalitati care vă inspira (regizor/compozitor/actor/scriitor/muzician/formatie muzicală/savant etc.).
 
 ## Cerinte:
 
