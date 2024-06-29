@@ -4,13 +4,13 @@
 
 - [x] Să fie o pagină de tipul landing page
 - [x] Tag-uri absolut necesare spre utilizare: header, main, footer, section, nav
-- [x] Bara de navigare trebuie sã fie vizibila permanent, chiar si la scroll în jos si trebuie s facă legătura cu sectiunile principale ale paginii
+- [x] Bara de navigare trebuie sã fie vizibila permanent, chiar si la scroll în jos si trebuie sa facă legătura cu sectiunile principale ale paginii
 
 ## Sectiuni:
 
-- generalã (cu imaginea principal a personalitätii alese/a grupului de personalitati ales)
+- generalã (cu imaginea principala a personalitătii alese/a grupului de personalitati ales)
 - biografia
-- creatii/inventii/filme/albume/realizãri -în dependent de cine ati ales - prezentate într-un mod compact si accesibil
+- creatii/inventii/filme/albume/realizãri -în dependenta de cine ati ales - prezentate într-un mod compact si accesibil
 - fun facts sau curiozitati despre personalitatea/grupul de personalitati ales
 
 - [x] Un citat celebru apartinând persoanei/grupului de persoane ales
