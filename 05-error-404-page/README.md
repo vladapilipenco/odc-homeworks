@@ -14,4 +14,4 @@ O pagină grozavă 404 poate face utilizatorii să zâmbească și, mai importan
 
 # Screenshot
 
-![tribute page screenshot](./html-preview.github.io__url=https___github.com_vladapilipenco_odc-homeworks_blob_main_07-error-404-page_index.html.png)
+![tribute page screenshot](./error-screenshot.png)
