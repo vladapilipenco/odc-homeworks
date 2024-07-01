@@ -10,7 +10,7 @@ O pagină grozavă 404 poate face utilizatorii să zâmbească și, mai importan
 
 # Live Preview
 
-<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/07-error-404-page/index.html" target="_blank">Awkward Page</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/05-error-404-page/index.html" target="_blank">Awkward Page</a>
 
 # Screenshot
 
