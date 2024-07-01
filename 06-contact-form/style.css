@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(233, 232, 228);
+}
+.headerSection {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 0 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.contactForm {
+  max-width: 950px;
+  margin: 0 auto 100px auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 100px 50px 100px 50px;
+}
+.twoSectionContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+label {
+  font-weight: bold;
+}
+input:not([type="checkbox"]),
+textarea,
+select,
+.checkboxDiv {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin: 20px 0px;
+  background-color: rgba(237, 241, 207, 0.627);
+}
+textarea {
+  height: 200px;
+}
+.checkboxDiv {
+  position: relative;
+  padding: 8px 20px;
+}
+.hiddenCheckbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 3;
+}
+.hiddenListOfCountries {
+  height: 200px;
+  overflow: auto;
+  display: none;
+  border-radius: 10px;
+}
+.listItem {
+  padding: 10px 10px;
+  background-color: rgb(255, 254, 251);
+  font-size: 1rem;
+}
+.listItem:hover {
+  background-color: rgb(240, 239, 234);
+}
+
+.countrySelectContainer:has(input:checked) .hiddenListOfCountries {
+  display: block;
+}
+
+.placeholder {
+  color: rgb(139, 139, 136);
+}
+
+.submitButton {
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(237, 241, 207, 0.627);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.submitButton:hover {
+  background-color: rgba(239, 244, 204, 0.648);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.117);
+}
