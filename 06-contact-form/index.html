@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"
+    />
+
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header class="headerSection">
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form class="contactForm">
+        <div class="twoSectionContainer">
+          <div class="leftSection">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Your name..."
+            />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your email..."
+            />
+          </div>
+
+          <div class="rightSection">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Your last name..."
+            />
+            <label for="phone">Phone number</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="Your phone number..."
+            />
+          </div>
+        </div>
+
+        <div>
+          <label for="country">Country</label>
+          <div class="countrySelectContainer">
+            <div class="checkboxDiv">
+              <input type="checkbox" class="hiddenCheckbox" />
+              <div><p class="placeholder">Select your country...</p></div>
+            </div>
+            <div class="hiddenListOfCountries">
+              <div class="listItem">
+                <span class="fi fi-au"></span> Australia
+              </div>
+              <div class="listItem">
+                <span class="fi fi-af"></span> Afghanistan
+              </div>
+              <div class="listItem"><span class="fi fi-ad"></span> Andorra</div>
+              <div class="listItem">
+                <span class="fi fi-ar"></span> Argentina
+              </div>
+              <div class="listItem"><span class="fi fi-at"></span> Austria</div>
+              <div class="listItem"><span class="fi fi-be"></span> Belgium</div>
+              <div class="listItem"><span class="fi fi-br"></span> Brazil</div>
+              <div class="listItem">
+                <span class="fi fi-bg"></span> Bulgaria
+              </div>
+              <div class="listItem">
+                <span class="fi fi-bw"></span> Botswana
+              </div>
+              <div class="listItem"><span class="fi fi-ca"></span> Canada</div>
+              <div class="listItem"><span class="fi fi-cl"></span> Chile</div>
+              <div class="listItem"><span class="fi fi-cn"></span> China</div>
+              <div class="listItem">
+                <span class="fi fi-co"></span> Colombia
+              </div>
+              <div class="listItem">
+                <span class="fi fi-cr"></span> Costa Rica
+              </div>
+              <div class="listItem"><span class="fi fi-cu"></span> Cuba</div>
+              <div class="listItem"><span class="fi fi-eg"></span> Egypt</div>
+              <div class="listItem"><span class="fi fi-ee"></span> Estonia</div>
+              <div class="listItem"><span class="fi fi-fi"></span> Finland</div>
+              <div class="listItem"><span class="fi fi-fr"></span> France</div>
+              <div class="listItem"><span class="fi fi-de"></span> Germany</div>
+              <div class="listItem">
+                <span class="fi fi-hk"></span> Hong Kong
+              </div>
+              <div class="listItem"><span class="fi fi-is"></span> Iceland</div>
+              <div class="listItem"><span class="fi fi-il"></span> Israel</div>
+              <div class="listItem"><span class="fi fi-it"></span> Italy</div>
+              <div class="listItem"><span class="fi fi-jp"></span> Japan</div>
+              <div class="listItem"><span class="fi fi-md"></span> Moldova</div>
+              <div class="listItem"><span class="fi fi-ma"></span> Morocco</div>
+            </div>
+          </div>
+          <label for="address">Address</label>
+          <input type="text" id="" name="" placeholder="Your address..." />
+          <label for="message">Subject</label>
+          <textarea
+            name="message"
+            placeholder="Enter your message..."
+          ></textarea>
+          <button type="button" class="submitButton">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
