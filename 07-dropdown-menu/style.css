@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 12, 12);
+}
+h1 {
+  margin: 40px 70px;
+  font-family: "Chivo Mono";
+  font-size: 1.9rem;
+  color: rgb(239, 237, 237);
+}
+.mainNavigation {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.navigationList {
+  list-style-type: none;
+}
+.navigationList li {
+  position: relative;
+  display: inline;
+  min-width: 200px;
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  left: -20%;
+  top: 150%;
+  min-width: 150px;
+  border-radius: 20px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 12px rgba(255, 255, 255, 0.637);
+}
+.navigationList .dropdown a {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+.navigationList .dropdown a:hover {
+  color: rgb(248, 116, 116);
+}
+.navigationList li:hover .dropdown {
+  display: block;
+}
+.navigationList a {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.navigationList a:hover {
+  color: rgb(219, 219, 216);
+}
+.homeSection {
+  background-color: rgb(12, 12, 12);
+  padding: 150px 0;
+}
+.homeWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.leftSideContainer {
+  margin-right: 80px;
+}
+.leftSideContainer h2 {
+  font-size: 2.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.leftSideContainer p {
+  margin-top: 50px;
+  text-align: justify;
+  font-family: Georgia, serif;
+  color: rgb(163, 163, 162);
+  font-size: 1.2rem;
+}
+.rightSideContainer {
+  display: flex;
+  align-items: center;
+}
+.portrait {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.contactButton {
+  display: inline-block;
+  margin-top: 50px;
+  border: none;
+  border-radius: 40px;
+  padding: 25px 40px;
+  background-color: rgb(250 135 135);
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", sans-serif;
+  color: rgb(255 255 255);
+  box-shadow: 0px 0px 20px rgb(172, 110, 110);
+}
+.contactButton:hover {
+  background-color: rgb(244, 110, 110);
+  box-shadow: 0px 0px 25px rgb(103, 52, 52);
+}
+.skillsSection {
+  max-width: 900px;
+  margin: 100px auto;
+}
+.skillsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 140px;
+}
+.skillsList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0;
+}
+.skillsList li {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+.softSkillsSection {
+  max-width: 900px;
+  margin: 100px auto;
+}
+.softSkillsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.softSkillsList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0;
+}
+.softSkillsList {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+.projectsSection {
+  max-width: 1300px;
+  margin: 200px auto;
+}
+.projectsSection h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.projectsSection p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(140, 140, 140);
+}
+.projectsList {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 100px 0 0;
+  padding: 0;
+}
+.projectsList li {
+  list-style-type: none;
+}
+.card {
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card img {
+  object-fit: cover;
+}
+.tributePageImage {
+  object-position: 0px 0%;
+}
+.card a {
+  text-decoration: none;
+  color: rgb(250 135 135);
+  font-weight: bold;
+}
+.card a:hover {
+  color: rgb(250, 194, 194);
+  text-shadow: 0px 0px 10px rgb(250, 236, 236);
+}
+.formSection {
+  max-width: 700px;
+  margin: 200px auto;
+}
+.formSection h3 {
+  text-align: center;
+}
+.formSection p {
+  text-align: center;
+}
+.contactMeForm {
+  width: 100%;
+  background-color: rgb(252, 238, 232);
+  border-radius: 10px;
+  padding: 40px 100px;
+  margin-top: 80px;
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
+}
+.contactMeForm label {
+  display: inline-block;
+  padding: 15px 15px;
+}
+.contactMeForm input {
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  margin: 20px 0px;
+}
+.contactMeForm input::placeholder {
+  color: rgb(218, 215, 215);
+}
+.selectBoxContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.selectBoxContainer label {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.selectBoxContainer select {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+}
+.formButton {
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(251, 251, 251);
+  font-weight: bold;
+}
+.formButton:hover {
+  box-shadow: 0 10px 10px 0 rgba(130, 117, 117, 0.2);
+}
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.footerContainer p {
+  font-family: "Chivo Mono";
+  color: rgb(254, 234, 234);
+  font-size: 1.2rem;
+  margin-right: 30px;
+  font-weight: lighter;
+}
