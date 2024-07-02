@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(251, 237, 222);
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.mainContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.chessBoard {
+  border: 1px solid black;
+}
+.chessBoard th {
+  font-size: 1rem;
+  width: 30px;
+}
+.chessBoard td {
+  position: relative;
+  border: 1px solid black;
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+}
+.chessBoard .light {
+  background-color: rgb(237, 222, 206);
+}
+.chessBoard .dark {
+  background-color: rgb(177, 155, 138);
+}
+.chessBoard td:hover {
+  background-color: rgb(248, 246, 244);
+}
+.figure {
+  position: absolute;
+  text-align: center;
+  top: -70px;
+  left: 21px;
+  font-size: 4.5rem;
+}
+.light:hover,
+.dark:hover {
+  color: rgb(165, 154, 143);
+}
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 100px;
+  top: 30%;
+  left: 85%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+td:hover .tooltip {
+  visibility: visible;
+}
+.lightTooltip {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.darkTooltip {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
