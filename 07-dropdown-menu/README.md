@@ -8,8 +8,8 @@
 
 # Live Preview
 
-<a href="">Portfolio with dropdown menu</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/07-dropdown-menu/index.html" target="_blank">Portfolio with dropdown menu</a>
 
 # Screenshot
 
-![Portfolio with dropdown menu screenshot]()
+![Portfolio with dropdown menu screenshot](./dropdown-menu-screenshot.png)
