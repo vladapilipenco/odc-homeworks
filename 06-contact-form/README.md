@@ -6,4 +6,4 @@
 
 # Screenshot
 
-![tribute page screenshot](./contact-form-screenshot.png)
+![contact form screenshot](./contact-form-screenshot.png)
