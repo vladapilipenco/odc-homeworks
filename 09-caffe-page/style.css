@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
+  font-weight: 400;
   padding: 0;
   color: seashell;
   text-align: center;
@@ -48,6 +49,7 @@ body {
 }
 .textContainer h2 {
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 .textContainer h4 {
   font-size: 0.8rem;
@@ -58,6 +60,7 @@ body {
 }
 .teaSection h2 {
   font-size: 1.3rem;
+  font-weight: bolder;
 }
 .teaPhotosContainer {
   display: flex;
@@ -89,6 +92,7 @@ body {
 }
 .locationSection h2 {
   font-size: 1.3rem;
+  font-weight: bolder;
   margin-bottom: 15px;
 }
 .addressCardsContainer .addressCard {
@@ -102,4 +106,22 @@ body {
 .addressCard h3,
 .addressCard p {
   padding: 10px;
+}
+.contactContainer {
+  height: 200px;
+}
+.contactContainer h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.contactContainer h5 {
+  font-size: 0.8rem;
+}
+.footerSection {
+  margin: 0 20px;
+}
+.footerSection p {
+  text-align: left;
+  font-size: 0.7rem;
 }
