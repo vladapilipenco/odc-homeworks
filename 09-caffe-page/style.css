@@ -71,7 +71,6 @@ body {
   margin: 10px;
 }
 .locationSection {
-  display: flex;
   background-image: url("./images/img-locations-background.jpg");
   background-position: center;
   background-size: cover;
@@ -79,4 +78,28 @@ body {
   max-width: 1200px;
   height: 500px;
   margin: 0 auto;
+  padding: 50px;
+}
+.addressCardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  opacity: 1;
+}
+.locationSection h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+.addressCardsContainer .addressCard {
+  opacity: 1;
+  margin-top: 10px;
+}
+.addressCard {
+  width: 300px;
+  background-color: black;
+}
+.addressCard h3,
+.addressCard p {
+  padding: 10px;
 }
