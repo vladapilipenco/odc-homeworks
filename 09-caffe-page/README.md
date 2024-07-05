@@ -11,4 +11,4 @@ Proiectul presupune că vei putea reproduce codul HTML și CSS de bază cu îndr
 
 # Screenshot
 
-![Caffe page screenshot]()
+![Caffe page screenshot](./caffe-page_screenshot.png)
