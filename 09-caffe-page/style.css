@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 0;
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+.headerContainer {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  padding: 10px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+.headerContainer ul {
+  display: flex;
+  gap: 20px;
+}
+.headerContainer li {
+  list-style-type: none;
+}
+.heroImageSection {
+  display: flex;
+  align-items: center;
+  background-image: url("./images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+.textContainer {
+  background-color: black;
+  width: 100%;
+  opacity: 1;
+}
+.textContainer h2 {
+  font-size: 1.5rem;
+}
+.textContainer h4 {
+  font-size: 0.8rem;
+}
+.teaSection {
+  max-width: 1000px;
+  margin: 80px auto;
+}
+.teaSection h2 {
+  font-size: 1.3rem;
+}
+.teaPhotosContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.teaCard p {
+  margin: 10px;
+}
+.locationSection {
+  display: flex;
+  background-image: url("./images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
