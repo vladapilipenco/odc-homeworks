@@ -7,7 +7,7 @@ Proiectul presupune că vei putea reproduce codul HTML și CSS de bază cu îndr
 
 # Live Preview
 
-<a href="" target="_blank">Caffe Page</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/09-caffe-page/index.html" target="_blank">Caffe Page</a>
 
 # Screenshot
 
