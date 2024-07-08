@@ -4,6 +4,72 @@
 body {
   margin: 0;
 }
+img {
+  display: block;
+}
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 60px auto 0 auto;
+}
 main {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 100px auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 70px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.imageContainer img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: -75px;
+  object-fit: cover;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.imageContainer img:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: transform 0.35s;
+}
+.actorInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+.actorInfoContainer p {
+  align-self: flex-end;
+}
+.filmInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(152, 223, 244);
+  border-bottom: 2px solid rgb(152, 223, 244);
+}
+.filmDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+.filmDescriptionContainer h3,
+p,
+img {
+  margin: 0;
+}
+.filmDescriptionContainer .imdbLogo {
+  align-self: flex-end;
+  margin-top: 10px;
 }
