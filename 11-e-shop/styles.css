@@ -52,11 +52,39 @@ h2 {
   border-radius: 5px;
   box-shadow: 0 4px 10px 0 rgba(219, 219, 219, 0.568);
 }
+.productImageContainer {
+  position: relative;
+}
 .productImage {
   width: 100%;
   height: 250px;
   object-fit: cover;
   border-radius: 5px 5px 0 0;
+}
+.productOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.productImageContainer:hover .productOverlay {
+  opacity: 1;
+}
+.quickView {
+  padding: 10px 15px;
+  background-color: #f39c12;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .productDiscription {
   display: flex;
