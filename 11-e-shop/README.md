@@ -7,7 +7,7 @@ E-shop reference
 
 # Live preview
 
-<a href="" target="_blank">E-shop</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/11-e-shop/index.html" target="_blank">E-shop</a>
 
 # Screenshot
 
