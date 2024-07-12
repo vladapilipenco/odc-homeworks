@@ -29,13 +29,14 @@ p {
 }
 .headerContainer h1 {
   font-family: "Berkshire Swash";
+  font-size: 2.5rem;
   padding: 40px 70px;
   background-color: #ffffff6e;
 }
 h2 {
   text-align: center;
   margin-top: 50px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .mainContent {
   display: flex;
