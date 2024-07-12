@@ -136,8 +136,10 @@ h2 {
   margin: 10px 0;
 }
 #color {
-  background-color: rgb(244, 243, 243);
-  border-radius: 3px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 4px;
+  border-right: none;
+  border-bottom: none;
 }
 .chooseSize {
   display: flex;
