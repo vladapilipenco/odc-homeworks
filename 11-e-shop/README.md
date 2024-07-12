@@ -11,4 +11,4 @@ E-shop reference
 
 # Screenshot
 
-![E-shop screenshot](./homework-e-shop-screenshot.png)
+![E-shop screenshot]()
