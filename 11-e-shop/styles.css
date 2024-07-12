@@ -5,6 +5,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
 }
@@ -54,4 +57,66 @@ h2 {
   height: 250px;
   object-fit: cover;
   border-radius: 5px 5px 0 0;
+}
+.productDiscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.price {
+  font-size: large;
+  font-weight: 700;
+  align-self: flex-end;
+}
+.price .number {
+  font-family: "Berkshire Swash";
+  font-size: 35px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.inputsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.chooseColor {
+  display: flex;
+  flex-direction: column;
+}
+.chooseColor label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.chooseSize {
+  display: flex;
+  flex-direction: column;
+}
+.chooseSize label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+input {
+  padding: 5px 5px;
+}
+select {
+  padding: 5px 5px;
+}
+.buyButton {
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #ef9a10;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.buyButton:hover {
+  transform: scale(1.02);
+  background-color: #e5af0e;
 }
