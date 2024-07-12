@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  display: block;
+}
+p {
+  font-family: "Roboto";
+}
+.headerContainer {
+  background-image: url("./images/header-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: 25% 100%;
+}
+.headerContainer h1 {
+  font-family: "Berkshire Swash";
+  padding: 40px 70px;
+  background-color: #ffffff6e;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 70px auto;
+}
+.productCard {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  margin: 0 auto 70px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 rgba(219, 219, 219, 0.568);
+}
+.productImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
