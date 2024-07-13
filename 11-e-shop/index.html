@@ -58,16 +58,27 @@
               <div class="chooseSize">
                 <label for="quantity">Marime: </label>
                 <div class="sizeInputContainer">
-                  <button type="button">-</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity1').value = Math.max(37, document.getElementById('quantity1').valueAsNumber -1)"
+                  >
+                    -
+                  </button>
                   <input
                     type="number"
-                    id="quantity"
+                    id="quantity1"
                     name="quantity"
-                    placeholder="41"
+                    value="41"
                     min="37"
                     max="42"
+                    readonly
                   />
-                  <button type="button">+</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity1').value = Math.min(42, document.getElementById('quantity1').valueAsNumber +1)"
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
@@ -120,16 +131,27 @@
               <div class="chooseSize">
                 <label for="quantity">Marime: </label>
                 <div class="sizeInputContainer">
-                  <button type="button">-</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity2').value = Math.max(35, document.getElementById('quantity2').valueAsNumber -1)"
+                  >
+                    -
+                  </button>
                   <input
                     type="number"
-                    id="quantity"
+                    id="quantity2"
                     name="quantity"
-                    placeholder="35"
-                    min="37"
+                    min="35"
                     max="42"
+                    value="35"
+                    readonly
                   />
-                  <button type="button">+</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity2').value = Math.min(42, document.getElementById('quantity2').valueAsNumber +1)"
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
@@ -182,16 +204,27 @@
               <div class="chooseSize">
                 <label for="quantity">Marime: </label>
                 <div class="sizeInputContainer">
-                  <button type="button">-</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity3').value = Math.max(35, document.getElementById('quantity3').valueAsNumber -1)"
+                  >
+                    -
+                  </button>
                   <input
                     type="number"
-                    id="quantity"
+                    id="quantity3"
                     name="quantity"
-                    placeholder="35"
+                    value="35"
                     min="37"
                     max="42"
+                    readonly
                   />
-                  <button type="button">+</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity3').value = Math.min(42, document.getElementById('quantity3').valueAsNumber +1)"
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
@@ -244,16 +277,27 @@
               <div class="chooseSize">
                 <label for="quantity">Marime: </label>
                 <div class="sizeInputContainer">
-                  <button type="button">-</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity4').value = Math.max(25, document.getElementById('quantity4').valueAsNumber -1)"
+                  >
+                    -
+                  </button>
                   <input
                     type="number"
-                    id="quantity"
+                    id="quantity4"
                     name="quantity"
-                    placeholder="35"
-                    min="37"
-                    max="42"
+                    value="35"
+                    min="25"
+                    max="35"
+                    readonly
                   />
-                  <button type="button">+</button>
+                  <button
+                    type="button"
+                    onclick="document.getElementById('quantity4').value = Math.min(35, document.getElementById('quantity4').valueAsNumber +1)"
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
