@@ -4,3 +4,11 @@
 - [x] Conţine 4 elemente copii (items)
 - [x] Toate items trebuie să aibă dimensiuni identice
 - [x] Ordinea aranjării lor: 4 - 2 - 3 - 1
+
+# Live Preview
+
+<a href="" target="_blank">Chess Grid</a>
+
+# Screenshot
+
+![Chess Grid screenshot](./chess-grid-screenshot.png)

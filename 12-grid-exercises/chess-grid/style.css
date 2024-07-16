@@ -26,6 +26,11 @@ main div {
   border: 3px solid #f97878;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 12px 6px 14px 0 rgba(228, 79, 136, 0.323);
+}
+main div:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: transform 0.3s;
 }
 .cell1 {
   grid-row: 4;
