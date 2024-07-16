@@ -4,8 +4,8 @@
 
 # Live Preview
 
-<a href="" target="_blank">Overlapped grid elements</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/12-grid-exercises/overlapped-grid-elements/index.html" target="_blank">Overlapped grid elements</a>
 
 # Screenshot
 
-![Overlapped elements screenshot]()
+![Overlapped elements screenshot](./overlapped-grid-elements-screenshot.html.png)
