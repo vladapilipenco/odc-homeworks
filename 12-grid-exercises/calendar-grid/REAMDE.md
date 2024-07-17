@@ -6,4 +6,4 @@
 
 # Screenshot
 
-![Calendar Grid screenshot]()
+![Calendar Grid screenshot](./calendar-grid-screenshot.png)
