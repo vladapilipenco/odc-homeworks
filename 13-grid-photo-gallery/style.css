@@ -4,19 +4,23 @@
 body {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 img {
   display: block;
+  object-fit: cover;
 }
 nav {
   background-color: rgb(0, 0, 0);
-  height: 120px;
+  height: 100px;
   position: relative;
 }
 nav img {
   position: absolute;
   right: 20px;
 }
-header {
+.headerImage {
   background-image: url("./images/van-gogh-museum-header-background.webp");
   display: flex;
   justify-content: center;
@@ -25,7 +29,7 @@ header {
   height: 500px;
   background-size: cover;
   background-position: 0% 40%;
-  filter: brightness(35%) saturate(100%);
+  filter: brightness(45%) saturate(100%);
 }
 .sloganContainer {
   position: relative;
@@ -45,5 +49,78 @@ h1 {
 }
 main {
   margin: 100px auto;
+  padding: 0 200px;
   display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: 110px;
+  gap: 20px;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  border: 6px solid rgb(40, 36, 32);
+  padding: 15px;
+  box-shadow: 0 18px 26px 0 rgba(0, 0, 0, 2.2);
+}
+.imageContainer1 {
+  grid-area: 1/1/4/4;
+}
+.imageContainer2 {
+  grid-area: 1/4/3/6;
+}
+.imageContainer2 img {
+  object-position: 95% 100%;
+}
+.imageContainer3 {
+  grid-area: 1/6 / span 2 / span 2;
+}
+.imageContainer8 img {
+  object-position: 10% 100%;
+}
+.imageContainer9 {
+  grid-area: 3 / 4 / span 4 / span 4;
+}
+.imageContainer10 {
+  grid-area: 2 / 8 / span 2 / span 2;
+}
+.imageContainer11 {
+  grid-area: 5 / 1 / span 3 / span 3;
+}
+.imageContainer12 {
+  grid-area: 7 / 4 / span 2 / span 2;
+}
+.imageContainer13 {
+  grid-area: 7 / 6 / span 2 / span 2;
+}
+.imageContainer14 {
+  grid-area: 4 / 8 / span 2 / span 2;
+}
+.imageContainer15 {
+  grid-area: 6 / 8 / span 2 / span 2;
+}
+.imageContainer19 {
+  grid-area: 8 / 8 / span 1 / span 2;
+}
+.description {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -100px;
+
+  padding: 30px;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+  border: 15px solid white;
+  border-top: none;
+}
+.imageContainer:hover .description {
+  bottom: 0;
+  transition: bottom 0.6s;
 }
