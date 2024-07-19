@@ -124,3 +124,23 @@ main img {
   bottom: 0;
   transition: bottom 0.6s;
 }
+blockquote {
+  max-width: 400px;
+  text-align: center;
+  margin: 150px auto;
+  font-size: 2rem;
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 130px;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+}
