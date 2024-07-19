@@ -5,7 +5,7 @@
 
 # Live Preview
 
-<a href="" target="_blank">Grid Gallery</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/13-grid-photo-gallery/index.html" target="_blank">Grid Gallery</a>
 
 # Screenshot
 
