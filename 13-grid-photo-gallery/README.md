@@ -9,4 +9,4 @@
 
 # Screenshot
 
-![Grid Gallery screenshot]()
+![Grid Gallery screenshot](./grid-photo-gallery.png)
