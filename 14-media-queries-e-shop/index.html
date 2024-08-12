@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>E-shop with Media Queries</title>
+  </head>
+  <body>
+    <header class="headerContainer">
+      <h1>Magazin de incaltaminte</h1>
+    </header>
+    <main>
+      <h2>Cele mai noi produse</h2>
+      <div class="mainContent">
+        <section class="productCard">
+          <p class="productBadge">-10%</p>
+          <div class="productContent">
+            <img
+              src="./images/balerini-irka.jpg"
+              alt="Green flats"
+              width="350px"
+              height="250px"
+              class="productImage"
+            />
+            <div class="productDiscription">
+              <h3>Balerini colorati</h3>
+              <p>
+                Alege cele mai in voga ghete din aceasta vara. Fiind din piele
+                naturala iti va oferi comfortul dorit. Disponibil in culorile:
+                roz, mint, gri-orange.
+              </p>
+              <div class="productDetails">
+                <div class="ratingAndColor">
+                  <div class="rating">
+                    <p>Star-rating:</p>
+                    <img
+                      src="./images/fivestars.png"
+                      alt="Five golden stars"
+                      width="90px"
+                      height="25px"
+                    />
+                    <p>4.5</p>
+                  </div>
+                  <div class="chooseColor">
+                    <label for="color">Culoare: </label>
+                    <select name="color" id="color" placeholder="Rosu">
+                      <option value="" disabled selected hidden>Rosu</option>
+                      <option value="color">Roz</option>
+                      <option value="color">Mint</option>
+                      <option value="color">Gri-orange</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="priceAndSize">
+                  <p class="price">Pret: <span class="number">$29.99</span></p>
+                  <div class="chooseSize">
+                    <label for="quantity">Marime: </label>
+                    <div class="sizeInputContainer">
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.max(37, document.getElementById('quantity1').valueAsNumber -1)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="number"
+                        id="quantity1"
+                        name="quantity"
+                        value="41"
+                        min="37"
+                        max="42"
+                        readonly
+                      />
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.min(42, document.getElementById('quantity1').valueAsNumber +1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="buyButton">Cumpara</button>
+          </div>
+        </section>
+
+        <section class="productCard">
+          <p class="productBadge">Popular</p>
+        </section>
+
+        <section class="productCard"><p class="productBadge">Sale</p></section>
+
+        <section class="productCard"><p class="productBadge">Sale</p></section>
+      </div>
+    </main>
+  </body>
+</html>
