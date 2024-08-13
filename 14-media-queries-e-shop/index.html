@@ -19,11 +19,11 @@
             <img
               src="./images/balerini-irka.jpg"
               alt="Green flats"
-              width="350px"
+              width="270px"
               height="250px"
               class="productImage"
             />
-            <div class="productDiscription">
+            <div class="productDescription">
               <h3>Balerini colorati</h3>
               <p>
                 Alege cele mai in voga ghete din aceasta vara. Fiind din piele
@@ -79,20 +79,235 @@
                         +
                       </button>
                     </div>
+                  </div>
                 </div>
               </div>
+              <button type="button" class="buyButton">Cumpara</button>
             </div>
-            <button type="button" class="buyButton">Cumpara</button>
           </div>
         </section>
 
         <section class="productCard">
           <p class="productBadge">Popular</p>
+          <div class="productContent">
+            <img
+              src="./images/sandale cu fundita.jpg"
+              alt="Pink sandals with a ribbon"
+              width="270px"
+              height="250px"
+              class="productImage"
+            />
+            <div class="productDescription">
+              <h3>Sandal cu fundita asimetrica</h3>
+              <p>
+                Alege cele mai in voga ghete din aceasta vara. Fiind din piele
+                naturala iti va oferi comfortul dorit. Disponibil in culorile:
+                roz, mint, gri-orange.
+              </p>
+              <div class="productDetails">
+                <div class="ratingAndColor">
+                  <div class="rating">
+                    <p>Star-rating:</p>
+                    <img
+                      src="./images/fivestars.png"
+                      alt="Five golden stars"
+                      width="90px"
+                      height="25px"
+                    />
+                    <p>4.5</p>
+                  </div>
+                  <div class="chooseColor">
+                    <label for="color">Culoare: </label>
+                    <select name="color" id="color">
+                      <option value="" disabled selected hidden>Bej</option>
+                      <option value="color">Roz</option>
+                      <option value="color">Mint</option>
+                      <option value="color">Gri-orange</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="priceAndSize">
+                  <p class="price">Pret: <span class="number">$159.99</span></p>
+                  <div class="chooseSize">
+                    <label for="quantity">Marime: </label>
+                    <div class="sizeInputContainer">
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.max(37, document.getElementById('quantity1').valueAsNumber -1)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="number"
+                        id="quantity1"
+                        name="quantity"
+                        value="35"
+                        min="37"
+                        max="42"
+                        readonly
+                      />
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.min(42, document.getElementById('quantity1').valueAsNumber +1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="buyButton">Cumpara</button>
+            </div>
+          </div>
         </section>
 
-        <section class="productCard"><p class="productBadge">Sale</p></section>
+        <section class="productCard">
+          <p class="productBadge">Sale</p>
+          <div class="productContent">
+            <img
+              src="./images/loferi-galbeni.jpg"
+              alt="Yellow loafers"
+              width="270px"
+              height="250px"
+              class="productImage"
+            />
+            <div class="productDescription">
+              <h3>Loferi</h3>
+              <p>
+                Alege cele mai in voga ghete din aceasta vara. Fiind din piele
+                naturala iti va oferi comfortul dorit. Disponibil in culorile:
+                roz, mint, gri-orange.
+              </p>
+              <div class="productDetails">
+                <div class="ratingAndColor">
+                  <div class="rating">
+                    <p>Star-rating:</p>
+                    <img
+                      src="./images/fivestars.png"
+                      alt="Five golden stars"
+                      width="90px"
+                      height="25px"
+                    />
+                    <p>4.5</p>
+                  </div>
+                  <div class="chooseColor">
+                    <label for="color">Culoare: </label>
+                    <select name="color" id="color" placeholder="Rosu">
+                      <option value="" disabled selected hidden>Rosu</option>
+                      <option value="color">Roz</option>
+                      <option value="color">Mint</option>
+                      <option value="color">Gri-orange</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="priceAndSize">
+                  <p class="price">Pret: <span class="number">$39.99</span></p>
+                  <div class="chooseSize">
+                    <label for="quantity">Marime: </label>
+                    <div class="sizeInputContainer">
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.max(37, document.getElementById('quantity1').valueAsNumber -1)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="number"
+                        id="quantity1"
+                        name="quantity"
+                        value="35"
+                        min="37"
+                        max="42"
+                        readonly
+                      />
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.min(42, document.getElementById('quantity1').valueAsNumber +1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="buyButton">Cumpara</button>
+            </div>
+          </div>
+        </section>
 
-        <section class="productCard"><p class="productBadge">Sale</p></section>
+        <section class="productCard">
+          <p class="productBadge">Sale</p>
+          <div class="productContent">
+            <img
+              src="./images/pantofi-copii-froggie-din-piele-naturala-verde.jpg"
+              alt="Green grogs shoes for kids"
+              width="270px"
+              height="250px"
+              class="productImage"
+            />
+            <div class="productDescription">
+              <h3>Pantofi froggie</h3>
+              <p>
+                Alege cele mai in voga ghete din aceasta vara. Fiind din piele
+                naturala iti va oferi comfortul dorit. Disponibil in culorile:
+                roz, mint, gri-orange.
+              </p>
+              <div class="productDetails">
+                <div class="ratingAndColor">
+                  <div class="rating">
+                    <p>Star-rating:</p>
+                    <img
+                      src="./images/fivestars.png"
+                      alt="Five golden stars"
+                      width="90px"
+                      height="25px"
+                    />
+                    <p>4.5</p>
+                  </div>
+                  <div class="chooseColor">
+                    <label for="color">Culoare: </label>
+                    <select name="color" id="color" placeholder="Rosu">
+                      <option value="" disabled selected hidden>Rosu</option>
+                      <option value="color">Roz</option>
+                      <option value="color">Mint</option>
+                      <option value="color">Gri-orange</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="priceAndSize">
+                  <p class="price">Pret: <span class="number">$19.99</span></p>
+                  <div class="chooseSize">
+                    <label for="quantity">Marime: </label>
+                    <div class="sizeInputContainer">
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.max(37, document.getElementById('quantity1').valueAsNumber -1)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="number"
+                        id="quantity1"
+                        name="quantity"
+                        value="35"
+                        min="37"
+                        max="42"
+                        readonly
+                      />
+                      <button
+                        type="button"
+                        onclick="document.getElementById('quantity1').value = Math.min(42, document.getElementById('quantity1').valueAsNumber +1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="buyButton">Cumpara</button>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>

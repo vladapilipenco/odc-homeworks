@@ -13,6 +13,7 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 p {
   font-family: "Roboto";
@@ -40,9 +41,9 @@ h2 {
 }
 .mainContent {
   margin: 0 50px;
-  max-width: 100%;
 }
 .productCard {
+  display: flex;
   position: relative;
   margin: 30px 70px;
   padding: 10px;
@@ -64,6 +65,10 @@ h2 {
   font-weight: bold;
   text-align: center;
   z-index: 1;
+}
+.productImage {
+  flex-basis: 270px;
+  margin-right: 30px;
 }
 .productContent {
   display: flex;
@@ -141,12 +146,58 @@ h2 {
   background-color: #e5af0e;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
   .mainContent {
     display: flex;
     flex-wrap: wrap;
+    gap: 45px 20px;
+    margin-top: 80px;
   }
   .productCard {
-    flex: 50%;
+    flex: 49%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  * {
+    font-size: 0.8rem;
+  }
+  .productContent {
+    flex-direction: column;
+    margin: 0;
+  }
+  .buyButton {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .mainContent {
+    margin: 0;
+  }
+  .headerContainer h1 {
+    font-size: 1.6rem;
+    margin-top: 60px;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .price .number {
+    font-size: 1rem;
+    margin: 10px 0 0 5px;
+  }
+  .price {
+    font-size: 1rem;
+    margin: 8px 0 0 5px;
+  }
+  .rating img {
+    width: 40px;
+    height: 10px;
+  }
+  .sizeInputContainer button {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+  .productContent img {
+    object-fit: contain;
   }
 }
