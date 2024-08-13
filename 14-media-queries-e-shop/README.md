@@ -4,7 +4,7 @@
 
 # Live preview
 
-<a href="" target="_blank">Responsive E-shop</a>
+<a href="https://html-preview.github.io/?url=https://github.com/vladapilipenco/odc-homeworks/blob/main/14-media-queries-e-shop/index.html" target="_blank">Responsive E-shop</a>
 
 # Screenshot
 
