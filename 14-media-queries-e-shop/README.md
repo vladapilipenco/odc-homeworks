@@ -8,11 +8,11 @@
 
 # Screenshot
 
-![Mobile e-shop version]()
+![Desktop e-shop version](./responsive-e-shop-desktop-version.png)
 
-![Tablet  e-shop version]()
+![Tablet  e-shop version (ex. IPad Pro)](./responsive-e-shop-tablet-version.png)
 
-![Desktop e-shop version]()
+![Mobile e-shop version (ex.IPhone 14 Pro Max)](./responsive-e-shop-mobile-version.png)
 
 # Task Refference
 
