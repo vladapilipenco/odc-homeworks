@@ -62,4 +62,41 @@ if (purchaseAmount >= 100) {
 }
 let total = purchaseAmount + (purchaseAmount / 100) * 5; //Dupa impozit
 
-console.log(total);
+console.log(total); //Output 756
+/* Calcule: 
+10% de la 800 = 80 
+800 - 80 = 720
+5% de la 720 = 36 
+720 + 36 = 756 */
+
+/* Exercise 5 - Creeați o variabilă password și folosiți instrucțiuni if/else pentru a verifica complexitatea parolei:
+-    Dacă password are cel puțin 12 caractere și conține atât litere mari, litere mici, cât și cifre, afișați "Parolă foarte sigură".
+-    Dacă password are cel puțin 8 caractere și conține litere mari și litere mici, afișați "Parolă sigură".
+-    Dacă password are cel puțin 6 caractere și conține doar litere, afișați "Parolă slabă".
+-    Altminteri, afișați "Parolă nesigură" */
+
+let password;
+let verySecurePassword = "gggghhGHghgAs12346Wqsdd"; //For verification
+let securePassword = "fgfGGFffFFFgfgf"; //For verification
+let lessSecurePassword = "klklkl"; //For verification
+let insecurePassword = "hdgfb"; //For verification
+
+password = insecurePassword; //Output "Parolă nesigură"
+
+let regexNum = /[0-9]/; //Daca contine cifre
+let regexUpLow = /[A-Za-z]/; //Daca contine litere mari și litere mici
+let regexLow = /[a-z]/; //Daca contine doar litere mici
+
+if (
+  password.length >= 12 &&
+  password.search(regexUpLow) > -1 &&
+  password.search(regexNum) > -1
+) {
+  console.log("Parolă foarte sigură");
+} else if (password.length >= 8 && password.search(regexUpLow) > -1) {
+  console.log("Parolă sigură");
+} else if (password.length >= 6 && password.search(regexUpLow) > -1) {
+  console.log("Parolă slabă");
+} else {
+  console.log("Parolă nesigură");
+}
