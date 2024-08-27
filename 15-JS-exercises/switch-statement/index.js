@@ -57,4 +57,4 @@ console.log(
     " Total value is: " +
     totalV3 +
     "."
-); // The output is:
+); // The output is: The bill was: 430, the tip was: 86. Total value is: 516.
