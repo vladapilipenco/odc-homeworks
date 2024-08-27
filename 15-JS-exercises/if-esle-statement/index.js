@@ -100,3 +100,44 @@ if (
 } else {
   console.log("Parolă nesigură");
 }
+
+/* Exercise 6 - Scrieți un program JavaScript pentru a verifica dacă un număr dat este un număr prim. 
+Un număr prim este un număr mai mare decât 1 care nu are alți divizori pozitivi în afară de 1 și de el însuși */
+
+let primeNumber = 5;
+
+if (primeNumber > 1 && primeNumber % 2 !== 0) {
+  console.log("The number is a prime number");
+} else {
+  console.log("The number is not a prime number");
+}
+
+/* Exercise 7 - Suma lungimilor a două laturi ale unui triunghi trebuie să fie mai mare 
+decât lungimea celei de-a treia laturi. 
+De exemplu, numerele 3, 4 și 5 pot forma un triunghi pentru că 3+4>5, 4+5>3 și 5+3>4. 
+În contrast, numerele 1, 2 și 5 nu pot forma un triunghi pentru că 1+2<5. 
+Astfel, dacă sunt date trei numere întregi, puteți determina dacă acestea ar putea forma un triunghi sau 
+nu aplicând această regulă generală.
+Având 3 numere, determinați dacă ele pot forma un triunghi folosind regula de mai sus. 
+De asemenea, testați dacă triunghiul rezultat ar fi un triunghi dreptunghic folosind teorema lui Pitagora.
+ */
+
+let num1 = 3;
+let num2 = 4;
+let num3 = 5;
+
+if (num1 + num2 > num3 && num2 + num3 > num1 && num3 + num1 > num2) {
+  console.log("Treangle can be formated");
+} else {
+  console.log("Treangle can NOT be formated");
+}
+//Verificam daca triunghiul rezultat ar fi un triunghi dreptunghic
+let a = num1 ** 2;
+let b = num2 ** 2;
+let c = num3 ** 2;
+
+if (a + b == c) {
+  console.log("The triangle is a right-angled triangle");
+} else {
+  console.log("The triangle is NOT a right-angled triangle");
+}
