@@ -104,12 +104,29 @@ if (
 /* Exercise 6 - Scrieți un program JavaScript pentru a verifica dacă un număr dat este un număr prim. 
 Un număr prim este un număr mai mare decât 1 care nu are alți divizori pozitivi în afară de 1 și de el însuși */
 
-let primeNumber = 5;
+let primeNumber = 41;
+let isPrimeNumber;
 
-if (primeNumber > 1 && primeNumber % 2 !== 0) {
-  console.log("The number is a prime number");
+if (primeNumber > 1) {
+  if (primeNumber === 2) {
+    isPrimeNumber = true;
+  } else {
+    for (let i = 2; i < primeNumber; i++) {
+      if (primeNumber % i === 0) {
+        isPrimeNumber = false;
+        break;
+      }
+      isPrimeNumber = true;
+    }
+  }
 } else {
-  console.log("The number is not a prime number");
+  isPrimeNumber = false;
+}
+
+if (isPrimeNumber) {
+  console.log(`${primeNumber} is a prime number`);
+} else {
+  console.log(`${primeNumber} is NOT a prime number`);
 }
 
 /* Exercise 7 - Suma lungimilor a două laturi ale unui triunghi trebuie să fie mai mare 
