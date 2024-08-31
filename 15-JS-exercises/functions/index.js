@@ -15,9 +15,9 @@ let koalasRound1Test1 = 65;
 let koalasRound2Test1 = 54;
 let koalasRound3Test1 = 49;
 
-let delfinsRound1Test1 = 44;
-let delfinsRound2Test1 = 23;
-let delfinsRound3Test1 = 71;
+let dolphinsRound1Test1 = 44;
+let dolphinsRound2Test1 = 23;
+let dolphinsRound3Test1 = 71;
 
 // Test 2 - Delfinii scor 85, 54 și 41. Koala scor 23, 34 și 27
 
@@ -25,9 +25,9 @@ let koalasRound1Test2 = 23;
 let koalasRound2Test2 = 34;
 let koalasRound3Test2 = 27;
 
-let delfinsRound1Test2 = 85;
-let delfinsRound2Test2 = 54;
-let delfinsRound3Test2 = 41;
+let dolphinsRound1Test2 = 85;
+let dolphinsRound2Test2 = 54;
+let dolphinsRound3Test2 = 41;
 
 function calcAverage(round1, round2, round3) {
   let averageScore = (round1 + round2 + round3) / 3;
@@ -39,43 +39,45 @@ let koalasAverageScoreTest1 = calcAverage(
   koalasRound2Test1,
   koalasRound3Test1
 );
-let delfinsAverageScoreTest1 = calcAverage(
-  delfinsRound1Test1,
-  delfinsRound2Test1,
-  delfinsRound3Test1
+let dolphinsAverageScoreTest1 = calcAverage(
+  dolphinsRound1Test1,
+  dolphinsRound2Test1,
+  dolphinsRound3Test1
 );
-console.log(koalasAverageScoreTest1, delfinsAverageScoreTest1); //Output: 56 46
+console.log(koalasAverageScoreTest1, dolphinsAverageScoreTest1); //Output: 56 46
 
 let koalasAverageScoreTest2 = calcAverage(
   koalasRound1Test2,
   koalasRound2Test2,
   koalasRound3Test2
 );
-let delfinsAverageScoreTest2 = calcAverage(
-  delfinsRound1Test2,
-  delfinsRound2Test2,
-  delfinsRound3Test2
+let dolphinsAverageScoreTest2 = calcAverage(
+  dolphinsRound1Test2,
+  dolphinsRound2Test2,
+  dolphinsRound3Test2
 );
-console.log(koalasAverageScoreTest2, delfinsAverageScoreTest2); //Output: 28 60
+console.log(koalasAverageScoreTest2, dolphinsAverageScoreTest2); //Output: 28 60
 
-function checkWinner(koalasAverage, delfinsAverage) {
-  if (koalasAverage > delfinsAverage) {
-    console.log("Koalas win " + koalasAverage + " vs " + delfinsAverage + ".");
+function checkWinner(koalasAverage, dolphinsAverage) {
+  if (koalasAverage > dolphinsAverage) {
+    console.log("Koalas win " + koalasAverage + " vs " + dolphinsAverage + ".");
   } else {
-    console.log("Delfins win " + delfinsAverage + " vs " + koalasAverage + ".");
+    console.log(
+      "dolphins win " + dolphinsAverage + " vs " + koalasAverage + "."
+    );
   }
 }
 
 let checkWinnerTest1 = checkWinner(
   koalasAverageScoreTest1,
-  delfinsAverageScoreTest1
+  dolphinsAverageScoreTest1
 );
 
 console.log(checkWinnerTest1); //Output: Koalas win 56 vs 46.
 
 let checkWinnerTest2 = checkWinner(
   koalasAverageScoreTest2,
-  delfinsAverageScoreTest2
+  dolphinsAverageScoreTest2
 );
 
-console.log(checkWinnerTest2); //Output: Delfins win 60 vs 28.
+console.log(checkWinnerTest2); //Output: dolphins win 60 vs 28.
