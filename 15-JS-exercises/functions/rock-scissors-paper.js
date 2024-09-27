@@ -43,7 +43,7 @@ function determineWinner(userChoice, computerChoice) {
   } else if (userChoice === "rock" && computerChoice === "paper") {
     return "Computer wins, try again!";
   } else if (userChoice === "bomb") {
-    return "The computer is defeatet and destroyed!!! You win!!!";
+    return "The computer is defeated and destroyed!!! You win!!!";
   }
 }
 
