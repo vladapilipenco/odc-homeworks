@@ -5,7 +5,14 @@ Scrie o funcție numită adaugaProdus care primește un produs ca argument și d
 Scrie o funcție numită eliminaProdus care primește un produs ca argument și îl elimină din lista de cumpărături.
 Afișați atât lista inițială și numărul de produse din ea cât și lista finală și numărul de produse din ea. */
 
-let groceryList = ["avocado", "bananas", "steak", "pineaple", "fish", "cheese"];
+const groceryList = [
+  "avocado",
+  "bananas",
+  "steak",
+  "pineaple",
+  "fish",
+  "cheese",
+];
 
 function sortAlphabetically() {
   let list = groceryList;
@@ -24,3 +31,7 @@ function findProduct(product) {
 
 findProduct("pineaple"); // Output: 4
 findProduct("almond milk"); // Output: 'The element was not found in the list'
+
+function addProduct(product) {
+  let;
+}
