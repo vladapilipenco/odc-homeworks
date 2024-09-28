@@ -33,5 +33,14 @@ findProduct("pineaple"); // Output: 4
 findProduct("almond milk"); // Output: 'The element was not found in the list'
 
 function addProduct(product) {
-  let;
+  let list = groceryList;
+  if (list.includes(product)) {
+    return "This product is already added to the list";
+  } else {
+    list.push(product);
+    return list;
+  }
 }
+addProduct("fish"); //Output: 'This product is already added to the list'
+addProduct("carrot"); //Output: (7) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot']
+addProduct("avocado"); //Output: 'This product is already added to the list'
