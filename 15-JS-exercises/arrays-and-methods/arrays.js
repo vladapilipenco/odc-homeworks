@@ -22,5 +22,5 @@ function findProduct(product) {
   }
 }
 
-findProduct("pineaple"); // Output:
-findProduct("almond milk"); // Output:
+findProduct("pineaple"); // Output: 4
+findProduct("almond milk"); // Output: 'The element was not found in the list'
