@@ -29,11 +29,12 @@ function findProduct(product) {
   }
 }
 
-findProduct("pineaple"); // Output: 4
-findProduct("almond milk"); // Output: 'The element was not found in the list'
+findProduct("pineaple"); //Output: 4
+findProduct("almond milk"); //Output: 'The element was not found in the list'
 
+const newGroceryList = groceryList; //Created another array for modifications
 function addProduct(product) {
-  let list = groceryList;
+  let list = newGroceryList;
   if (list.includes(product)) {
     return "This product is already added to the list";
   } else {
@@ -44,3 +45,20 @@ function addProduct(product) {
 addProduct("fish"); //Output: 'This product is already added to the list'
 addProduct("carrot"); //Output: (7) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot']
 addProduct("avocado"); //Output: 'This product is already added to the list'
+addProduct("orange"); //Output: (8)['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange']
+addProduct("cookies"); //Output: (9) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange', 'cookies']
+
+console.log(newGroceryList); //(9) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange', 'cookies']
+
+function removeProduct(product) {
+  let list = newGroceryList;
+  let index = list.indexOf(product);
+  if (index > 0) {
+    list.splice(index, 1);
+    return list;
+  }
+}
+removeProduct("carrot");
+console.log(newGroceryList); //Output: (8) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak', 'orange', 'cookies']
+removeProduct("orange");
+console.log(newGroceryList); //Output: (7) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak', 'cookies']
