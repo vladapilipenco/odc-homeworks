@@ -144,9 +144,9 @@ let num2 = 4;
 let num3 = 5;
 
 if (num1 + num2 > num3 && num2 + num3 > num1 && num3 + num1 > num2) {
-  console.log("Treangle can be formated");
+  console.log("Triangle can be formated");
 } else {
-  console.log("Treangle can NOT be formated");
+  console.log("Triangle can NOT be formated");
 }
 //Verificam daca triunghiul rezultat ar fi un triunghi dreptunghic
 let a = num1 ** 2;
