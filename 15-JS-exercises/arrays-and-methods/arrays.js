@@ -14,11 +14,10 @@ const groceryList = [
   "cheese",
 ];
 
-function sortAlphabetically() {
-  let list = groceryList;
+function sortAlphabetically(list) {
   return list.sort();
 }
-sortAlphabetically(); //Output: (6) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak']
+sortAlphabetically(groceryList); //Output: (6) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak']
 
 function findProduct(product) {
   let productIndex = groceryList.indexOf(product);
@@ -32,9 +31,10 @@ function findProduct(product) {
 findProduct("pineaple"); //Output: 4
 findProduct("almond milk"); //Output: 'The element was not found in the list'
 
-const newGroceryList = groceryList; //Created another array for modifications
-function addProduct(product) {
-  let list = newGroceryList;
+console.log(groceryList); //Output: (6) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak']
+
+const newGroceryList = [...groceryList]; //Created another array for modifications with distructure
+function addProduct(product, list) {
   if (list.includes(product)) {
     return "This product is already added to the list";
   } else {
@@ -42,23 +42,30 @@ function addProduct(product) {
     return list;
   }
 }
-addProduct("fish"); //Output: 'This product is already added to the list'
-addProduct("carrot"); //Output: (7) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot']
-addProduct("avocado"); //Output: 'This product is already added to the list'
-addProduct("orange"); //Output: (8)['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange']
-addProduct("cookies"); //Output: (9) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange', 'cookies']
+addProduct("fish", newGroceryList); //Output: 'This product is already added to the list'
+addProduct("carrot", newGroceryList); //Output: (7) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot']
+addProduct("avocado", newGroceryList); //Output: 'This product is already added to the list'
+addProduct("orange", newGroceryList); //Output: (8)['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange']
+addProduct("cookies", newGroceryList); //Output: (9) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange', 'cookies']
 
 console.log(newGroceryList); //(9) ['avocado', 'bananas', 'steak', 'pineaple', 'fish', 'cheese', 'carrot', 'orange', 'cookies']
 
-function removeProduct(product) {
-  let list = newGroceryList;
+function removeProduct(product, list) {
   let index = list.indexOf(product);
   if (index > 0) {
     list.splice(index, 1);
     return list;
   }
 }
-removeProduct("carrot");
+removeProduct("carrot", newGroceryList);
 console.log(newGroceryList); //Output: (8) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak', 'orange', 'cookies']
-removeProduct("orange");
-console.log(newGroceryList); //Output: (7) ['avocado', 'bananas', 'cheese', 'fish', 'pineaple', 'steak', 'cookies']
+
+//Final result of two arrays
+
+console.log(
+  `The initial product list had ${
+    groceryList.length
+  } elements and contained: ${groceryList.toString()}, while the final product list has ${
+    newGroceryList.length
+  } elements and containes: ${newGroceryList.toString()}`
+);
