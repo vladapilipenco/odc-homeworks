@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <main>
+      <p id="time" class="clock"></p>
+      <p id="date" class="clock"></p>
+    </main>
+
+    <script>
+      const time = document.getElementById("time");
+      const date = document.getElementById("date");
+
+      let timeOptions = {
+        weekday: "short",
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true,
+      };
+
+      let dateOptions = {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      };
+
+      function setDate() {
+        const d = new Date();
+
+        time.innerHTML = new Intl.DateTimeFormat("en-GB", timeOptions).format(
+          d
+        );
+        date.innerHTML = new Intl.DateTimeFormat("en-GB", dateOptions).format(
+          d
+        );
+      }
+
+      setDate();
+
+      setInterval(setDate, 1000);
+    </script>
+  </body>
+</html>

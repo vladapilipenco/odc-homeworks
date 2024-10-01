@@ -22,9 +22,6 @@ nav img {
 }
 .headerImage {
   background-image: url("./images/van-gogh-museum-header-background.webp");
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
   width: 100%;
   height: 500px;
   background-size: cover;
