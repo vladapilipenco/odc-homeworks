@@ -8,4 +8,4 @@ Working with new Date() object
 
 # Screenshot
 
-![Caffe page screenshot](./digital-clock-screenshot.png)
+![Digital Clock screenshot](./digital-clock-screenshot.png)
