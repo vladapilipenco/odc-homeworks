@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: flex-end;
+  width: 270px;
+  height: 270px;
+  border: 4px solid rgb(0, 0, 0);
+}
+.colorText {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px;
+}
+
+#pick {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-top: 50px;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+#pick:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: transform 0.3s;
+}
