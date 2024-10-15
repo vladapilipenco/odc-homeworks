@@ -11,20 +11,25 @@
     <header>
       <h1 class="mainHeader">Guess My Number!</h1>
       <p class="between">(Between 1 and 20)</p>
-      <button type="button" class="buttonAgain">Again!</button>
-      <div class="number">?</div>
+      <button type="button" class="buttonAgain" id="againButton">Again!</button>
+      <div class="number" id="numberToGuess">?</div>
     </header>
 
     <main>
       <section class="leftContent">
-        <input title="numberInput" placeholder="" type="number" class="guess" />
-        <button type="button" class="check">Check!</button>
+        <input
+          title="numberInput"
+          type="number"
+          class="guess"
+          id="numberInput"
+        />
+        <button type="button" class="check" id="checkButton">Check!</button>
       </section>
       <section class="rightContent">
-        <p class="message" class="">Start guessing ...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="message" id="message">Start guessing ...</p>
+        <p class="label-score">💯 Score: <span id="score">20</span></p>
         <p class="label-highscore">
-          🥇 Highscore: <span class="highscore">0</span>
+          🥇 Highscore: <span id="highscore">0</span>
         </p>
       </section>
     </main>
