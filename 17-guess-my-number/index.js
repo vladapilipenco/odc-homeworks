@@ -12,12 +12,15 @@ let highscore = document.getElementById("highscore");
 
 let randomNumber = Math.floor(Math.random() * 21);
 
-score = 20;
-highscore = 0;
+score.innerHTML = 20;
+highscore.innerHTML = 0;
 
-function showMessage(number, message) {
+function showMessage(number) {
   if (number == randomNumber) {
-    message = messageToUser.innerHTML;
+    return "You won!";
+  } else if (number != randomNumber && score == 0) {
+    return "You lost!";
   } else {
+    return "Try again!";
   }
 }
